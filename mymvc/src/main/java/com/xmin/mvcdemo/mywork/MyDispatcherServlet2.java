@@ -23,7 +23,7 @@ public class MyDispatcherServlet2 extends HttpServlet {
 
     private Properties contextConfig = new Properties();
     //保存Contrller中所有action的对应关系
-    private List<Handler> handlerMapping = new ArrayList<Handler>();
+    private List<MyHandler> handlerMapping = new ArrayList<MyHandler>();
     //IOC容器，实例化的类
     private Map<String, Object> ioc = new HashMap<String, Object>();
     //保存扫描的所有的类名
@@ -34,7 +34,7 @@ public class MyDispatcherServlet2 extends HttpServlet {
         resp.setContentType("application/json");
         resp.setCharacterEncoding("UTF-8");
         try {
-            Handler handler = getHandler(req);
+            MyHandler handler = getHandler(req);
             if (handler == null) {
                 resp.getWriter().write("404 Not Found");
                 return;
@@ -79,25 +79,6 @@ public class MyDispatcherServlet2 extends HttpServlet {
 
     }
 
-    private Object convert(Class<?> type, String value) {
-        if (Integer.class == type) {
-            return Integer.valueOf(value);
-        }
-        return value;
-    }
-
-    private Handler getHandler(HttpServletRequest req) {
-        String url = req.getRequestURI();
-        String contextPath = req.getContextPath();
-        url = url.replace(contextPath, "").replaceAll("/+", "/");
-
-        for (Handler handler : handlerMapping) {
-            if (handler.url.equals(url)) {
-                return handler;
-            }
-        }
-        return null;
-    }
 
     @Override
     public void init(ServletConfig config) throws ServletException {
@@ -142,12 +123,12 @@ public class MyDispatcherServlet2 extends HttpServlet {
                 methodUrl = method.getAnnotation(MyRequestMapping.class).value();
                 String url = ("/" + ControllerUrl + "/" + methodUrl).replaceAll("/+", "/");
 
-                for (Handler handler : handlerMapping) {
+                for (MyHandler handler : handlerMapping) {
                     if (handler.url.equals(url)) {
                         throw new ServletException(url + " already exists");
                     }
                 }
-                handlerMapping.add(new Handler(entry.getValue(), method, url));
+                handlerMapping.add(new MyHandler(entry.getValue(), method, url));
 
                 System.out.println("maped " + url + "," + method);
             }
@@ -264,18 +245,39 @@ public class MyDispatcherServlet2 extends HttpServlet {
     }
 
 
+
+    private Object convert(Class<?> type, String value) {
+        if (Integer.class == type) {
+            return Integer.valueOf(value);
+        }
+        return value;
+    }
+
+    private MyHandler getHandler(HttpServletRequest req) {
+        String url = req.getRequestURI();
+        String contextPath = req.getContextPath();
+        url = url.replace(contextPath, "").replaceAll("/+", "/");
+
+        for (MyHandler handler : handlerMapping) {
+            if (handler.url.equals(url)) {
+                return handler;
+            }
+        }
+        return null;
+    }
+
     private String toLowerFirstCase(String s) {
 
         return (new StringBuilder()).append(Character.toLowerCase(s.charAt(0))).append(s.substring(1)).toString();
     }
 
-    private class Handler {
+    private class MyHandler {
         protected Object clazz;     //实例
         protected Method method;        //方法
         protected String url; //地址
         protected Map<String, Integer> params;    //参数,带顺序
 
-        public Handler(Object clazz, Method method, String url) {
+        public MyHandler(Object clazz, Method method, String url) {
             this.clazz = clazz;
             this.method = method;
             this.url = url;

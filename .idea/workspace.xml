@@ -2,47 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be18d375-68f4-457b-862b-333001330559" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/target/classes/com/xmin/mvcdemo/mvc/api/TestController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/target/classes/com/xmin/mvcdemo/mvc/biz/BizTestServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/target/classes/com/xmin/mvcdemo/mvc/biz/IBizTestService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/target/classes/com/xmin/mvcdemo/mywork/MyDispatcherServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/target/classes/com/xmin/mvcdemo/mywork/MyDispatcherServlet2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/target/classes/com/xmin/mvcdemo/mywork/annotation/MyAutowired.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/target/classes/com/xmin/mvcdemo/mywork/annotation/MyController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/target/classes/com/xmin/mvcdemo/mywork/annotation/MyRequestMapping.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/target/classes/com/xmin/mvcdemo/mywork/annotation/MyRequestParam.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/target/classes/com/xmin/mvcdemo/mywork/annotation/MyService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/.idea/thriftCompiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/mymvc.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mvc/api/TestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mvc/biz/BizTestServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mvc/biz/IBizTestService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mywork/MyDispatcherServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mywork/MyDispatcherServlet2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mywork/annotation/MyAutowired.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mywork/annotation/MyController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mywork/annotation/MyRequestMapping.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mywork/annotation/MyRequestParam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mywork/annotation/MyService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/src/main/resources/webdefault.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/target/classes/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/target/classes/rebel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mymvc/target/classes/webdefault.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mywork/MyDispatcherServlet2.java" afterPath="$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mywork/MyDispatcherServlet2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/mymvc/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,12 +16,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="114">
-                <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+              <first_editor relative-caret-position="38">
+                <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -68,10 +29,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MyDispatcherServlet2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mywork/MyDispatcherServlet2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+              <folding>
+                <element signature="docComment;class#MyDispatcherServlet2#0" expanded="false" />
+                <element signature="method#doGet#0;class#MyDispatcherServlet2#0" expanded="false" />
+                <element signature="method#initHandlerMapping#0;class#MyDispatcherServlet2#0" expanded="false" />
+                <element signature="method#initAutowired#0;class#MyDispatcherServlet2#0" expanded="false" />
+                <element signature="method#initIoc#0;class#MyDispatcherServlet2#0" expanded="false" />
+                <element signature="method#initPackage#0;class#MyDispatcherServlet2#0" expanded="false" />
+                <element signature="method#initConfig#0;class#MyDispatcherServlet2#0" expanded="false" />
+                <element signature="method#convert#0;class#MyDispatcherServlet2#0" expanded="false" />
+                <element signature="method#getHandler#0;class#MyDispatcherServlet2#0" expanded="false" />
+                <element signature="method#toLowerFirstCase#0;class#MyDispatcherServlet2#0" expanded="false" />
+                <element signature="class#MyHandler#0;class#MyDispatcherServlet2#0" expanded="false" />
+                <element signature="method#MyHandler#0;class#MyHandler#0;class#MyDispatcherServlet2#0" expanded="false" />
+                <element signature="method#setParams#0;class#MyHandler#0;class#MyDispatcherServlet2#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mvc/api/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="242">
               <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="27" />
               <folding />
             </state>
@@ -92,6 +77,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mywork/MyDispatcherServlet2.java" />
       </list>
     </option>
   </component>
@@ -281,6 +267,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mvcdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mywork" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -831,7 +821,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1958000" />
+    <option name="totallyTimeSpent" value="2466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -925,14 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mywork/MyDispatcherServlet2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="274" column="34" lean-forward="true" selection-start-line="274" selection-start-column="34" selection-end-line="274" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mymvc/src/main/resources/webdefault.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -981,22 +963,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mvc/api/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="242">
           <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/mymvc/src/main/java/com/xmin/mvcdemo/mywork/MyDispatcherServlet2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;class#MyDispatcherServlet2#0" expanded="false" />
+            <element signature="method#doGet#0;class#MyDispatcherServlet2#0" expanded="false" />
+            <element signature="method#initHandlerMapping#0;class#MyDispatcherServlet2#0" expanded="false" />
+            <element signature="method#initAutowired#0;class#MyDispatcherServlet2#0" expanded="false" />
+            <element signature="method#initIoc#0;class#MyDispatcherServlet2#0" expanded="false" />
+            <element signature="method#initPackage#0;class#MyDispatcherServlet2#0" expanded="false" />
+            <element signature="method#initConfig#0;class#MyDispatcherServlet2#0" expanded="false" />
+            <element signature="method#convert#0;class#MyDispatcherServlet2#0" expanded="false" />
+            <element signature="method#getHandler#0;class#MyDispatcherServlet2#0" expanded="false" />
+            <element signature="method#toLowerFirstCase#0;class#MyDispatcherServlet2#0" expanded="false" />
+            <element signature="class#MyHandler#0;class#MyDispatcherServlet2#0" expanded="false" />
+            <element signature="method#MyHandler#0;class#MyHandler#0;class#MyDispatcherServlet2#0" expanded="false" />
+            <element signature="method#setParams#0;class#MyHandler#0;class#MyDispatcherServlet2#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
