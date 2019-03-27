@@ -31,9 +31,12 @@ public class MyDispatcherServlet2 extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("application/json");
-        resp.setCharacterEncoding("UTF-8");
+        doDispatch(req, resp);
+    }
+
+    private void doDispatch(HttpServletRequest req, HttpServletResponse resp) {
         try {
+            //获取action
             MyHandler handler = getHandler(req);
             if (handler == null) {
                 resp.getWriter().write("404 Not Found");
@@ -74,11 +77,13 @@ public class MyDispatcherServlet2 extends HttpServlet {
             Object obj = handler.method.invoke(handler.clazz, paramValues);
             resp.getWriter().write(String.valueOf(obj));
         } catch (Exception ex) {
-            resp.getWriter().write(ex.toString());
+            try {
+                resp.getWriter().write(ex.toString());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
-
     }
-
 
     @Override
     public void init(ServletConfig config) throws ServletException {
@@ -243,7 +248,6 @@ public class MyDispatcherServlet2 extends HttpServlet {
         }
 
     }
-
 
 
     private Object convert(Class<?> type, String value) {
